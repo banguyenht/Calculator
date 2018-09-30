@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Calculator</string>
+    <string name="str_ac">AC</string>
+    <string name="str_dot">.</string>
+    <string name="str_number0">0</string>
+    <string name="str_number1">1</string>
+    <string name="str_number2">2</string>
+    <string name="str_number3">3</string>
+    <string name="str_number4">4</string>
+    <string name="str_number5">5</string>
+    <string name="str_number6">6</string>
+    <string name="str_number7">7</string>
+    <string name="str_number8">8</string>
+    <string name="str_number9">9</string>
+    <string name="str_add">+</string>
+    <string name="str_sub">-</string>
+    <string name="str_mutiplication">x</string>
+    <string name="str_devision">/</string>
+    <string name="str_modolus">%</string>
+    <string name="str_sign">+/-</string>
+    <string name="str_result">=</string>
 </resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/CustomRelaytive">
+
+        <TextView
+            android:id="@+id/text_view_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textSize" />
+
+    </RelativeLayout>
+
+    <LinearLayout style="@style/CustomLinearRow">
+
+        <Button
+            android:id="@+id/button_ac"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_ac" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_sign"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_sign" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_modolus"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_modolus" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_division"
+            style="@style/CustomButtonYellow"
+            android:text="@string/str_devision" />
+
+    </LinearLayout>
+
+    <TextView style="@style/LineVertical" />
+
+    <LinearLayout style="@style/CustomLinearRow">
+
+        <Button
+            android:id="@+id/button_number7"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_number7" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_number8"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_number8" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_number9"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_number9" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_mutiplication"
+            style="@style/CustomButtonYellow"
+            android:text="@string/str_mutiplication" />
+    </LinearLayout>
+
+    <TextView style="@style/LineVertical" />
+
+    <LinearLayout style="@style/CustomLinearRow">
+
+        <Button
+            android:id="@+id/button_number4"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_number4" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_number5"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_number5" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_number6"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_number6" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_sub"
+            style="@style/CustomButtonYellow"
+            android:text="@string/str_sub" />
+    </LinearLayout>
+
+    <TextView style="@style/LineVertical" />
+
+    <LinearLayout style="@style/CustomLinearRow">
+
+        <Button
+            android:id="@+id/button_number1"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_number1" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_number2"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_number2" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_number3"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_number3" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_add"
+            style="@style/CustomButtonYellow"
+            android:text="@string/str_add" />
+    </LinearLayout>
+
+    <TextView style="@style/LineVertical" />
+
+    <LinearLayout style="@style/CustomLinearRow">
+
+        <Button
+            android:id="@+id/button_number0"
+            style="@style/CustomButton0"
+            android:text="@string/str_number0" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_dot"
+            style="@style/CustomCommonButton"
+            android:text="@string/str_dot" />
+
+        <TextView style="@style/LineHorizontal" />
+
+        <Button
+            android:id="@+id/button_result"
+            style="@style/CustomButtonYellow"
+            android:text="@string/str_result" />
+    </LinearLayout>
+
+</LinearLayout>
